@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className={classes.content}>
         <div className={classes.countContainer}>
           <div className={classes.headingContainer}>
-            <p className={classes.text}>PLACEMENTS BY</p>
+            <p className={classes.text}>CAMPAIGNS BY</p>
             <h1 className={classes.heading}>'Lkay Media'</h1>
           </div>
           <div style={{textAlign:"center"}}>
