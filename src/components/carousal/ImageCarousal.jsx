@@ -10,10 +10,31 @@ const ImageSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1638, 
+        settings: {
+          slidesToShow: 1, 
+         
+        },
+      },
+      {
+        breakpoint:1246,
+        settings:{
+          slidesToShow:2
+        }
+      },
+      {
+        breakpoint:732,
+        settings:{
+          slidesToShow:1
+        }
+      }
+    ],
   };
 
   return (
@@ -41,7 +62,7 @@ const NextArrow = (props) => {
 const PrevArrow = (props) => {
   const { onClick } = props;
   return (
-    <div className={`${classes.arrow} ${classes.prevArrow}`} onClick={onClick} >
+    <div className={`${classes.arrow} ${classes.prevArrow}`} onClick={onClick}>
       &#10094;
     </div>
   );

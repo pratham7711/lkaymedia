@@ -3,7 +3,8 @@
   height: auto;
   border: 1px solid lightgray;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-left: 2.5rem;
+
+ 
 }
 
 .title {
@@ -37,3 +38,26 @@
   font-weight: bold;
   padding: 1rem;
 }
+
+@media (max-width: 1638px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1246px) {
+  .card {
+    width: 23rem;
+  }
+}
+@media (max-width: 858px) {
+  .card {
+    width: 20rem;
+  }
+}
+@media (max-width: 732px) {
+  .card {
+    width: 100%;
+  }
+}
+
