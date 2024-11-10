@@ -11,7 +11,7 @@ const Header = ({ scrollToContact }) => {
   return (
     <header className="bg-transparent fixed w-full z-10">
       <div className="max-w-7xl mx-auto flex justify-between items-center p-4">
-        <div className="text-3xl font-bold text-white">Logo</div>
+        <div className="text-3xl font-bold text-white">Lkay Media</div>
         <button
           className="text-white focus:outline-none md:hidden"
           onClick={toggleSidebar}
