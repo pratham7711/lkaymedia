@@ -4,7 +4,7 @@ const CountUp = ({ start = 0, end, duration = 2, onComplete }) => {
   const [count, setCount] = useState(start);
   const [isInView, setIsInView] = useState(false);
   const countUpRef = useRef(null);
-  const increment = (end - start) / (duration * 60); // Calculate increment per frame (assuming 60 FPS)
+  const increment = (end - start) / (duration * 60);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,8 +37,12 @@ const CountUp = ({ start = 0, end, duration = 2, onComplete }) => {
     const updateCount = (currentTime) => {
       const elapsedTime = (currentTime - startTime) / 1000; // Convert to seconds
       const newCount = Math.min(start + increment * elapsedTime * 60, end); // Calculate new count
-
-      setCount(Math.floor(newCount)); // Update state with the new count
+      let countToSet = Number.isInteger(end) ? Math.floor(newCount) : newCount.toFixed(1);
+      
+      
+      setCount(
+        countToSet
+      ); 
 
       if (newCount < end) {
         animationFrameId = requestAnimationFrame(updateCount); // Continue the animation
