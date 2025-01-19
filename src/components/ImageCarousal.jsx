@@ -22,7 +22,7 @@ const ImageCarousal = () => {
         </div>
 
         <img
-          src="https://s3-alpha-sig.figma.com/img/7b22/4ba6/9d32efcb691a7568fd79b1ee151d34bf?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Y~os4m-2~GV4U6Q1K6MHBYE8VYyuqc9pbgSDUQh4ZSjasshemTe2g40Yy9hPeMvaM-luvLmMZdHi788Ac7pkGEXJ4Ia39HmzIjO3w-vRCLu81zES8P5dwlrzV-2clAnB57ZjIOfI4~wlfdFQEN6OpR7cSFBzBcpGzTrUZiGZ0amyCcGp71-SJe8KCrSid8ZF1B8yYN4X5DL2NREAHulyOLQz~Yxv0O8pifNp90OSoy0fZUMCNvDzbuTE5MT~rrhZBbHA-OoxFjhPreG1EgF1euporeVvMPyCltQddYbuyeZP9jmgUDzXIA8s6151~~UbTw4B-Ty5VvS9ChxZCx38Uw__"
+          src="https://ladygaganow.net/albums/Artworks/Singles/die%20with%20a%20smile/large.single_cover.jpg.81ff8509862c28c8d2eb0addcf2020e6.jpg"
           alt=""
           className="w-[20rem] h-[20rem]"
         />
