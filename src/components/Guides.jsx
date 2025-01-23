@@ -2,6 +2,8 @@ import React from 'react';
 import Image1 from '../../assets/third-image.png'
 import Image2 from '../../assets/fourth-image.png'
 import Image3 from '../../assets/fifth-image.png'
+import Image5 from '../../assets/videoIcon.png'
+import Image6 from '../../assets/videoIcon2.png'
 
 
 
@@ -91,11 +93,11 @@ const Guides = () => {
         </div>
           <div className=" flex  items-center justify-center gap-3 mr-[12rem]">
             <img
-              src="https://s3-alpha-sig.figma.com/img/1abb/cb66/aedd11bc72f95421edf38250b7ca17e9?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LrOOy4EjOLbdFKHcKdKroxL~BnvnsANkUv1mffjldgqoI61m340yVAuKtF0VKOvfVvf~kMcDSA82qcljfFhSJ-Q13xHdBJs1QVg9Dq8jnv9VSXcbBrCawPwsNFn16CMAsvDtPFl1-~RRcqFaKe7i4Qf7Wjchzz1RYP5J-Zn2f-BmsgWjeuhuynX3R0koovjdR7bF-u8BkgSiEbLbINPnWTEr7Tm2Mf~uMd08IdbbMTv7NC3dGVKcpThawF8umOrS2Rx9lGKrA4piCn-4ahs7PACTKbrZfqhKQ2AiGGOkdmEcLONUCbF7G1-e80g2Pynf0GY0TlN4P-h-1~YyxdcLhA__"
+              src={Image5}
               className="h-[17rem] "
             />
             <img
-              src="https://s3-alpha-sig.figma.com/img/610e/3cbe/a1de3302f69e13c2db6337342ec400f5?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fylFY3rum9PJ1mIrQxl3K71tnO3ReSWpS41C3t-J0Hj-Y3e6xoNVVGOajHObauYZTa43iTEReoymq~v8HznM7HuGCCIMqtY4Pud49JNqzni6HXN0iJV3xyJX0PgIZruP~KiqOkOcMXt4LKllLh~2sNmMG3CpFtWQ0Yy8HgcY3pcaXqHLHfwcRBdsuX2Uf7ff~0XRKEbYbzKQ0Xtxg-Banj-46ftYC5-6F~DQskPUGutm8e2qDcRihnVa8DDPOH1XQtb6lB9eAubznU~weGfCcdAguVXgFBmLfnqRLIO2Rg8~u~BvF3rjtZstuHjoum57o4wPewxCN~~OqTZ06-3M5A__"
+              src={Image6}
               className="h-[17rem] w-[12rem] "
             />
           </div>
