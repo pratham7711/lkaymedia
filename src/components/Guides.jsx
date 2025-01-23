@@ -1,4 +1,9 @@
 import React from 'react';
+import Image1 from '../../assets/third-image.png'
+import Image2 from '../../assets/fourth-image.png'
+import Image3 from '../../assets/fifth-image.png'
+
+
 
 const Guides = () => {
   return (
@@ -15,7 +20,7 @@ const Guides = () => {
           </p>
         </div>
         <img
-          src="https://s3-alpha-sig.figma.com/img/e982/7b40/88cc2ac23e7641dde11a8f1f885e4dc7?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V2UmcCrBnUN2HTapoa7Cb96DRjWh9GJnU-VU7G3FfWrOyS2Azldmau8PaiPvZg2is8V0r4u1J8yLf-y2fZsVtkMPsX0LZg~sxoyV8D7HK8ZKNxFcmHft2mShLIQi9~2QmJuC1qfDWRIdAeDrB3gitA0ex4q-sKOFvG7dVZjyEgGB5olN64ZgH8ojBTpa-T7zoaA8XMgjZODOxWLsOqVwrvHHkixFC7et3ktFZ8QOYNpwRD9ZfUgAyhLKokaGGfZ5d8SIuC3jKpyav42U9vrDsJf6Kp9ALmmF0BZhyt-un4S21L7xpw1W2AjmP4D0aJNZflVNSG2-kCCaw81NsVm2dw__"
+          src={Image1}
           alt=""
           className="h-[16rem] mr-[15rem]"
         />
@@ -23,7 +28,7 @@ const Guides = () => {
       <div className=" h-[20rem] flex items-center justify-between p-3 text-white   gap-2">
         <div className="flex flex-col gap-2 items-start justify-center  ml-[7rem] w-auto ">
           <img
-            src="https://s3-alpha-sig.figma.com/img/a31d/dbae/f0b9448196767aa34ed9d941c4716499?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OuR11Vff1tEHm3g8V~d7tmAXDTAO8gVSiFOAeDaMDze2j4F49l5pD-12I4VvkJyEqZ2th0a7tsxRWh0jTUeU4-Ii~Y1NKEeJHLpHRjfou9BEXbJtQbB2eh7Q2Hk-DpHMClQDkDYCXnGs-ULa9Wu~oVVJM031CfSXJ3yHTyXCnUfyFB7~ztXMn4r4dcRd879saBCdpYrZ~bXXEUCezdrGU-ZVL8giUK-VjAOWbthv0z3dah4Qoes30wGDUTgNvHfPE7~NQamOXnnfuQU~RhD8PTtynVKx7vD1Ii2bHWJmS0MxqmRd-yYSLjduNjn552yapiIEQaz6Ru0aVfc4DX7J9A__"
+            src={Image2}
             alt=""
             className="h-[16rem] "
           />
@@ -53,7 +58,7 @@ const Guides = () => {
           </p>
         </div>
         <img
-          src="https://www.figma.com/file/9PoNDLDbt5TvEaK2am0BLX/image/8dadad489cc773c26233224ed2e1286eebb77ec8"
+         src={Image3}
           className="h-[16rem] mr-[12rem]  mb-[5rem]"
         />
       </div>
@@ -84,16 +89,16 @@ const Guides = () => {
             Organically across all Socials !
           </p>
         </div>
-        {/* <div className=" flex  items-center justify-center gap-3 mr-[12rem]">
-          <img
-            src="https://s3-alpha-sig.figma.com/img/1abb/cb66/aedd11bc72f95421edf38250b7ca17e9?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LrOOy4EjOLbdFKHcKdKroxL~BnvnsANkUv1mffjldgqoI61m340yVAuKtF0VKOvfVvf~kMcDSA82qcljfFhSJ-Q13xHdBJs1QVg9Dq8jnv9VSXcbBrCawPwsNFn16CMAsvDtPFl1-~RRcqFaKe7i4Qf7Wjchzz1RYP5J-Zn2f-BmsgWjeuhuynX3R0koovjdR7bF-u8BkgSiEbLbINPnWTEr7Tm2Mf~uMd08IdbbMTv7NC3dGVKcpThawF8umOrS2Rx9lGKrA4piCn-4ahs7PACTKbrZfqhKQ2AiGGOkdmEcLONUCbF7G1-e80g2Pynf0GY0TlN4P-h-1~YyxdcLhA__"
-            className="h-[17rem] "
-          />
-          <img
-            src="https://s3-alpha-sig.figma.com/img/610e/3cbe/a1de3302f69e13c2db6337342ec400f5?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fylFY3rum9PJ1mIrQxl3K71tnO3ReSWpS41C3t-J0Hj-Y3e6xoNVVGOajHObauYZTa43iTEReoymq~v8HznM7HuGCCIMqtY4Pud49JNqzni6HXN0iJV3xyJX0PgIZruP~KiqOkOcMXt4LKllLh~2sNmMG3CpFtWQ0Yy8HgcY3pcaXqHLHfwcRBdsuX2Uf7ff~0XRKEbYbzKQ0Xtxg-Banj-46ftYC5-6F~DQskPUGutm8e2qDcRihnVa8DDPOH1XQtb6lB9eAubznU~weGfCcdAguVXgFBmLfnqRLIO2Rg8~u~BvF3rjtZstuHjoum57o4wPewxCN~~OqTZ06-3M5A__"
-            className="h-[17rem] w-[12rem] "
-          />
-        </div> */}
+          <div className=" flex  items-center justify-center gap-3 mr-[12rem]">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/1abb/cb66/aedd11bc72f95421edf38250b7ca17e9?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LrOOy4EjOLbdFKHcKdKroxL~BnvnsANkUv1mffjldgqoI61m340yVAuKtF0VKOvfVvf~kMcDSA82qcljfFhSJ-Q13xHdBJs1QVg9Dq8jnv9VSXcbBrCawPwsNFn16CMAsvDtPFl1-~RRcqFaKe7i4Qf7Wjchzz1RYP5J-Zn2f-BmsgWjeuhuynX3R0koovjdR7bF-u8BkgSiEbLbINPnWTEr7Tm2Mf~uMd08IdbbMTv7NC3dGVKcpThawF8umOrS2Rx9lGKrA4piCn-4ahs7PACTKbrZfqhKQ2AiGGOkdmEcLONUCbF7G1-e80g2Pynf0GY0TlN4P-h-1~YyxdcLhA__"
+              className="h-[17rem] "
+            />
+            <img
+              src="https://s3-alpha-sig.figma.com/img/610e/3cbe/a1de3302f69e13c2db6337342ec400f5?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fylFY3rum9PJ1mIrQxl3K71tnO3ReSWpS41C3t-J0Hj-Y3e6xoNVVGOajHObauYZTa43iTEReoymq~v8HznM7HuGCCIMqtY4Pud49JNqzni6HXN0iJV3xyJX0PgIZruP~KiqOkOcMXt4LKllLh~2sNmMG3CpFtWQ0Yy8HgcY3pcaXqHLHfwcRBdsuX2Uf7ff~0XRKEbYbzKQ0Xtxg-Banj-46ftYC5-6F~DQskPUGutm8e2qDcRihnVa8DDPOH1XQtb6lB9eAubznU~weGfCcdAguVXgFBmLfnqRLIO2Rg8~u~BvF3rjtZstuHjoum57o4wPewxCN~~OqTZ06-3M5A__"
+              className="h-[17rem] w-[12rem] "
+            />
+          </div>
       </div>
     </div>
   );

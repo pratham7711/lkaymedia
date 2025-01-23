@@ -3,13 +3,14 @@ import YouTubeIcon from '../assets/YouTubeIcon';
 import FaceBookIcon from '../assets/FaceBookIcon';
 import LinkedinIcon from '../assets/LinkedinIcon';
 import InstagramIcon from '../assets/InstagramIcon';
+import Logo from '../../assets/logo.jpg'
 
 const Footer = () => {
   return (
     <div className=" h-[18rem] flex flex-col text-white p-3 gap-2">
       <div className="flex items-center gap-2 ">
         <img
-          src="https://s3-alpha-sig.figma.com/img/89bc/1e48/475abff219495d27da6ff4a3261906f7?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oiUhZv4SVE8qIFDbLN9g7zT62IsQAggBeLWjZbQDhCjCtlX32XSgXQ~UGQq91xWDRQjB0o6UHmdaOdaVt46NvvBrBK~89f0sghM1bGMCK25wZiZ6ojYKfmiMesTrWho9hePKeMuJa1tVEmcCwZwR1AeAR5oHBk39n4b1IBvkq9j1a3aiUds3KBGRo-2iOwLpMa1TdqC9xwsJaOMOvmjIlC-uFrfmJwmhnUQWD0w1hmQTDXNaMEyh3rZJBn-~R3BqftWZLItgumWbuDs-dbcOHpYavQNvnkhDZfbiIqUxWW9lQwhtZBe9mRSCN4808MYZ65lvgkt3VqwvdmE8vsCmiA__"
+         src={Logo}
           alt=""
           className=" h-[4rem] w-[4rem]"
         />

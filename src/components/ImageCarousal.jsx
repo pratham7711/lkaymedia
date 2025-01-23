@@ -5,12 +5,14 @@ import AudioSpectrum from '../assets/AudioSpectrum';
 import BarLine from '../assets/BarLine';
 import PlayIcon from '../assets/PlayIcon';
 import CropIcon from '../assets/CropIcon';
+import Image1 from '../../assets/first-image.png'
+import Image3 from '../../assets/third-image.png'
 
 const ImageCarousal = () => {
   return (
     <div className="h-auto flex gap-[2rem] p-5 justify-center">
       <img
-        src="https://s3-alpha-sig.figma.com/img/23ec/7b2a/576358eb842065ce46d05ba89225e9d7?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L1fKw1pBDNmQ41bYRAlHujcIByy8oNGIqnDDuKUuWkZ71k1w7qehK9vEQgWc2DU3cSfgBKzwyWdAkV6eSSbGkucXcRp5ToB3s8aaRTuIcBBx-ykUF5uHjfX3bqsT31hhyQ3BkXh~VsI8NW8savBgv88Ue96sCoxCR~ZsHR-rTBYOo1iPFNRW1TVCSumhycNlTfJ-mtb8dm1OphJ89vPeNR3oPiBTqboUj64YV1AOtGCl8cHerFWURhcmWa0hceoEInfRDnF24-9zQwNpfA3B8HlLL6y9go0T8U5Uxuwo0kACg~cOzWxrqpCjNNWR5r0bxDl6wxMTLMRNDSlE-558iQ__"
+        src={Image1}
         alt=""
         className="w-[20rem] h-[28rem]"
       />
@@ -51,7 +53,7 @@ const ImageCarousal = () => {
       </div>
 
       <img
-        src="https://s3-alpha-sig.figma.com/img/fa26/0116/c319a470c30f465e5b2ec3aeedfd66a4?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=prNbHmOdqHR~hCNJ1N~eFsBWdgMENE5oKZAezRdM0QdniL~nhrylVoeKQ3qMG8Qq84RXk4CXOMa17B5PnH2RrIpOhgGgY3E~eVfxTWAAJdPpVuLZDeIEA41Ug-hjqzzZGI0d1qimNqIlclM4NGORLIL1M5flBALGPVizsmGYnaN2AplKsLA8BdUUMPYqOCMmXnX9VZ45yjxUhCbWT8H~ZNa8JKwMudeiHUVS-MZ5I2hqJblZetmWaJlMOSTLH~~WXilHiE~4VZHbjMxO-YtERVSErnscryZJb4V5nPhm~chnUSDerKkATKO~Q63cWRswV6cpJbaE7LF9MFtcay0C-w__"
+        src={Image3}
         alt=""
         className="w-[20rem] h-[28rem]"
       />
