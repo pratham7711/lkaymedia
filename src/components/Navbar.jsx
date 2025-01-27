@@ -1,5 +1,5 @@
 import Logo from '../../assets/logo.svg'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 const Navbar = () => {
   return (
