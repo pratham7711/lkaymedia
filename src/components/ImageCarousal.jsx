@@ -1,12 +1,5 @@
-import React from 'react';
-import MouseIcon from '../assets/MouseIcon';
-import DownArrowIcon from '../assets/DownArrowIcon';
-import AudioSpectrum from '../assets/AudioSpectrum';
-import BarLine from '../assets/BarLine';
-import PlayIcon from '../assets/PlayIcon';
-import CropIcon from '../assets/CropIcon';
-import Image1 from '../../assets/first-image.png'
-import Image3 from '../../assets/third-image.png'
+import Image1 from '../../assets/adele_skyfall.webp'
+import Image3 from '../../assets/myeyes.webp'
 
 const ImageCarousal = () => {
   return (
@@ -17,19 +10,19 @@ const ImageCarousal = () => {
         className="w-[20rem] h-[28rem]"
       />
       <div className="flex flex-col relative">
-        <div className="h-[8rem] flex flex-col gap-2 items-center justify-center text-white">
+        {/* <div className="h-[8rem] flex flex-col gap-2 items-center justify-center text-white">
           <span className="text-[12px]">Scroll down for more</span>
           <MouseIcon />
           <DownArrowIcon />
-        </div>
+        </div> */}
 
         <img
           src="https://ladygaganow.net/albums/Artworks/Singles/die%20with%20a%20smile/large.single_cover.jpg.81ff8509862c28c8d2eb0addcf2020e6.jpg"
           alt=""
-          className="w-[20rem] h-[20rem]"
+          className="w-[20rem] h-[28rem]"
         />
 
-        <div className="absolute top-[20rem]  left-[1rem]  h-[12rem] w-[18rem] flex flex-col gap-2 items-center justify-center text-white bg-black bg-opacity-50">
+        {/* <div className="absolute top-[20rem]  left-[1rem]  h-[12rem] w-[18rem] flex flex-col gap-2 items-center justify-center text-white bg-black bg-opacity-50">
           <span className="text-[12px] font-bold">
             Your Music. Their Reels.
           </span>
@@ -49,7 +42,7 @@ const ImageCarousal = () => {
               <CropIcon />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <img

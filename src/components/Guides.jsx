@@ -1,10 +1,6 @@
-import React from 'react';
 import Image1 from '../../assets/third-image.png'
 import Image2 from '../../assets/fourth-image.png'
 import Image3 from '../../assets/fifth-image.png'
-import Image5 from '../../assets/videoIcon.png'
-import Image6 from '../../assets/videoIcon2.png'
-
 
 
 const Guides = () => {
@@ -64,9 +60,9 @@ const Guides = () => {
           className="h-[16rem] mr-[12rem]  mb-[5rem]"
         />
       </div>
-      <div className=" h-[20rem] flex justify-between p-3 text-white gap-2">
-        <div className="flex flex-col gap-2 text-center justify-center w-full">
-          <span className="text-[3.5rem] font-extrabold">Results</span>
+      <div className=" h-[20rem] flex justify-between p-3 text-white gap-2 my-[10rem] mt-[8rem]">
+        <div className="flex flex-col gap-2 text-center jusyify-center w-full">
+          <span className="text-[3.5rem] text-center mb-11 font-extrabold">Results</span>
           <div className="w-full h-auto flex items-center justify-around pl-50 pr-30 ml-5">
             <div className="flex flex-col text-center justify-center">
               <span className="font-extrabold text-[3.5rem] text-transparent bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text">
@@ -91,7 +87,7 @@ const Guides = () => {
             Organically across all Socials !
           </p>
         </div>
-          <div className=" flex  items-center justify-center gap-3 mr-[12rem]">
+          {/* <div className=" flex  items-center justify-center gap-3 mr-[12rem]">
             <img
               src={Image5}
               className="h-[17rem] "
@@ -100,7 +96,7 @@ const Guides = () => {
               src={Image6}
               className="h-[17rem] w-[12rem] "
             />
-          </div>
+          </div> */}
       </div>
     </div>
   );
