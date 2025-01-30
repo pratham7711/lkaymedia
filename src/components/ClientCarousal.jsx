@@ -7,7 +7,11 @@ import Image3 from '../../assets/tribaltrapwhitelogo.webp';
 const ClientCarousal = () => {
 
   return (
-    <div className=" mt-[10rem] p-[2rem] flex items-center justify-between pl-[3rem] pr-[3rem] ">
+    <div>
+      <h1 className="text-transparent mt-[10rem] h-[4rem] bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text text-5xl font-bold my-12 align-center text-center">
+      Our Clients
+    </h1>
+    <div className=" mt-[2rem] p-[2rem] flex items-center justify-between pl-[3rem] pr-[3rem] ">
       <img
         src={Image1}
         alt=""
@@ -34,7 +38,7 @@ const ClientCarousal = () => {
         className='h-[5rem] w-[auto]'
       />
     </div>
-
+    </div>
   );
 };
 

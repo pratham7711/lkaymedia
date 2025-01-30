@@ -39,6 +39,10 @@ const ImageCarousal = () => {
   };
 
   return (
+    <div>
+       <h1 className="text-transparent h-[4rem] bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text text-5xl font-bold my-12 align-center text-center">
+      Our Campaigns
+    </h1>
     <div className="h-auto flex gap-8 p-5 justify-center" ref={containerRef}>
       {songs.map((song, index) => (
         <div key={index} className="relative">
@@ -65,6 +69,7 @@ const ImageCarousal = () => {
           )}
         </div>
       ))}
+    </div>
     </div>
   );
 };
