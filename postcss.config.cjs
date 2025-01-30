@@ -1,7 +1,11 @@
 module.exports = {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  }
-  
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],  // Ensure paths are correct
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
