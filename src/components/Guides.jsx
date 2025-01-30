@@ -1,6 +1,6 @@
-import Image1 from '../../assets/third-image.png'
-import Image2 from '../../assets/fourth-image.png'
-import Image3 from '../../assets/fifth-image.png'
+import Image1 from '../../assets/musictrend.png'
+import Image2 from '../../assets/audience.png'
+import Image3 from '../../assets/stats.png'
 
 
 const Guides = () => {

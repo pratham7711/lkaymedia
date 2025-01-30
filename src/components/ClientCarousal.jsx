@@ -1,7 +1,7 @@
 import Image1 from '../../assets/client1.png'
 import Image2 from '../../assets/client2.png'
 import Image4 from '../../assets/client4.png'
-import Image5 from '../../assets/black17medianobg.png';
+// import Image5 from '../../assets/black17medianobg.png';
 import Image3 from '../../assets/tribaltrapwhitelogo.webp';
 
 const ClientCarousal = () => {
