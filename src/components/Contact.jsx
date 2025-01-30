@@ -51,8 +51,8 @@ const Contact = React.forwardRef((props, ref) => {
   };
 
   return (
-    <div ref={ref} className="my-[5rem] h-auto flex items-center justify-center">
-      <div className=" w-[60%] p-[3rem] flex flex-col gap-2 items-center justify-center  text-white bg-[#2B2B2B]">
+    <div ref={ref} className="mt-[5rem] h-auto flex items-center justify-center">
+      <div className=" w-[100%] p-[3rem] flex flex-col gap-2 items-center justify-center  text-white bg-[#2B2B2B]">
         <span className="text-[2.5rem] font-bold">
           Drop us a{' '}
           <span className="text-transparent bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text">
@@ -80,7 +80,7 @@ const Contact = React.forwardRef((props, ref) => {
             onChange={(e) => setEmail(e.target.value)}
             className='mb-8 bg-[#3A393A] w-[80%] p-3 text-[#e9e9e9]' placeholder='Email' />
           <input type="text" name="message" value={message}
-            onChange={(e) => setMessage(e.target.value)} className='mb-10 bg-[#3A393A] w-[80%] p-3 text-[#eaeaea]' placeholder="Message" />
+            onChange={(e) => setMessage(e.target.value)} className='mb-10 bg-[#3A393A] w-[80%] h-20 p-3 text-[#eaeaea]' placeholder="Message" />
           <button type="submit" onClick={sendEmail} className='w-[40%] h-[3.5rem] bg-gradient-to-r from-[#74D4ED] via-[#A7A8FF] to-[#DAB4FF] font-bold transform transition-transform duration-300 hover:scale-105'>Get Started</button>
         </form>
 

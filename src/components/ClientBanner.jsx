@@ -2,7 +2,7 @@
 
 const ClientBanner = () => {
   return (
-    <div className="text-white mt-[15rem] flex flex-col items-center justify-center ">
+    <div className="text-white mt-[10rem] flex flex-col items-center justify-center ">
       <span className="w-auto text-[5rem] mb-11 font-extrabold ">
         What we do 
         {/* <span className="text-transparent bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text">
