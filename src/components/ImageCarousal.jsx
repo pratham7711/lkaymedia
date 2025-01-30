@@ -3,11 +3,14 @@ import { FaPlay } from "react-icons/fa";
 import Image1 from "../../assets/adele_skyfall.webp";
 import Image3 from "../../assets/myeyes.webp";
 import Image2 from "../../assets/diewithsmilecover.jpg";
+import skyfall from "../../assets/skyfall.mp3";
+import diewithsmile from "../../assets/diewithsmile.mp3";
+import myeyes from "../../assets/myeyes.mp3";
 
 const songs = [
-  { image: Image1, name: "Skyfall", artist: "Adele", audio: "../../assets/skyfall.mp3" },
-  { image: Image2, name: "Die with a Smile", artist: "Lady Gaga", audio: "../../assets/diewithsmile.mp3" },
-  { image: Image3, name: "My Eyes", artist: "Travis Scott", audio: "../../assets/myeyes.mp3" }
+  { image: Image1, name: "Skyfall", artist: "Adele", audio: skyfall },
+  { image: Image2, name: "Die with a Smile", artist: "Lady Gaga", audio: diewithsmile },
+  { image: Image3, name: "My Eyes", artist: "Travis Scott", audio: myeyes }
 ];
 
 const ImageCarousal = () => {

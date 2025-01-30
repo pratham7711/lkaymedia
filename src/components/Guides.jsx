@@ -6,6 +6,9 @@ import Image3 from '../../assets/stats.png'
 const Guides = () => {
   return (
     <div className=" h-auto flex flex-col">
+      <h1 className="text-transparent mt-[15rem] h-[4rem] bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text text-5xl font-bold align-center text-center">
+        What We Do
+      </h1>
       <div className=" h-[20rem] flex items-center justify-between p-3 text-white gap-2 ">
         <div className="flex flex-col gap-2 items-start justify-center  ml-[7rem] w-auto ">
           <span className="text-[2.5rem] font-bold">

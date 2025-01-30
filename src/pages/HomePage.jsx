@@ -2,7 +2,6 @@ import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
 import ImageCarousal from '../components/ImageCarousal';
 import ClientCarousal from '../components/ClientCarousal';
-import ClientBanner from '../components/ClientBanner';
 import Guides from '../components/Guides';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
@@ -14,7 +13,7 @@ const HomePage = () => {
       <Banner />
       <ImageCarousal />
       <ClientCarousal />
-      <ClientBanner />
+      {/* <ClientBanner /> */}
       <Guides />
       <Contact />
       <Footer/>
