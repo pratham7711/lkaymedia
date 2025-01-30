@@ -2,7 +2,7 @@ import { FaChevronDown } from "react-icons/fa"; // Import the downward arrow ico
 
 const Banner = () => {
   return (
-    <div className="text-white h-auto mt-[4rem] mb-[6rem] flex flex-col items-center">
+    <div className="text-white h-auto mt-[6.5rem] mb-[6rem] flex flex-col items-center">
       <span className="w-[80%] text-center text-[3.6rem] font-bold">
         <span className="text-transparent text-center bg-[linear-gradient(90deg,_#74D4ED_43.35%,_#A7A8FF_50.76%,_#C994DF_67.5%,_#DAB4FF_77.93%)] bg-clip-text">
           Beats to Buzz , Tracks to Trends
