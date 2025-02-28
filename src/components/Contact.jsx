@@ -51,7 +51,7 @@ const Contact = React.forwardRef((props, ref) => {
   };
 
   return (
-    <div ref={ref} className="mt-[5rem] h-auto flex items-center justify-center">
+    <div ref={ref} className="mtge-[5rem] h-auto flex items-center justify-center">
       <div className=" w-[100%] p-[3rem] flex flex-col gap-2 items-center justify-center  text-white bg-[#2B2B2B]">
         <span className="text-[2.5rem] font-bold">
           Drop us a{' '}

@@ -13,10 +13,9 @@ const HomePage = () => {
       <Banner />
       <ImageCarousal />
       <ClientCarousal />
-      {/* <ClientBanner /> */}
-      <Guides />
-      <Contact />
-      <Footer/>
+      {/* <Guides /> */}
+      {/* <Contact /> */}
+      {/* <Footer/> */}
     </div>
   );
 };
