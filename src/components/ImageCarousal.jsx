@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState} from "react";
 import { FaPlay } from "react-icons/fa";
 import Image1 from "../../assets/adele_skyfall.webp";
 import Image2 from "../../assets/diewithsmilecover.jpg";
